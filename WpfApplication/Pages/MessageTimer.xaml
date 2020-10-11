@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="WpfApplication.Pages.MessageTimer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="630"
+             xmlns:local="clr-namespace:WpfApplication.Models">
+    <UserControl.DataContext>
+        <local:TimerViewModel/>
+    </UserControl.DataContext>
+    <Grid Style="{StaticResource ContentRoot}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Grid.Row="6" Content="Loops" HorizontalAlignment="Left" VerticalAlignment="Top" Height="31" Width="100"/>
+        <TextBox x:Name="loopNo" PreviewTextInput="NumberValidationTextBox" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Left" TextWrapping="Wrap" Width="200" Text="{Binding LoopNo, Mode=TwoWay, ValidatesOnDataErrors=True}"/>
+        <Button x:Name="webBtn" Grid.Row="6" Content="Web" HorizontalAlignment="Left" Width="65" Click="webBtn_Click" Grid.Column="6" Margin="64,0,0,0"/>
+        <TextBlock x:Name="serviceTotal" Grid.Column="2" HorizontalAlignment="Left" Height="31" Grid.Row="10" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="serviceAvg" Grid.Column="6" HorizontalAlignment="Left" Height="31" Grid.Row="10" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="serviceBtn" Grid.Row="6" Content="TCP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="65" Height="31" Click="serviceBtn_Click" Grid.Column="4" Grid.ColumnSpan="3" Margin="95,0,0,0"/>
+        <Label x:Name="label1" Content="Total Time:" HorizontalAlignment="Left" Grid.Row="10" VerticalAlignment="Top" Height="31" Width="100"/>
+        <Label x:Name="label2" Content="Average Time:" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="10" VerticalAlignment="Top" Height="31" Width="100"/>
+        <Label x:Name="label3" Content="Min Time:" HorizontalAlignment="Left" Grid.Row="12" VerticalAlignment="Top" Height="31" Width="100"/>
+        <Label x:Name="label4" Content="Max Time:" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="12" VerticalAlignment="Top" Height="31" Width="100"/>
+        <TextBlock x:Name="serviceMin" Grid.Column="2" HorizontalAlignment="Left" Height="31" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="serviceMax" Grid.Column="6" HorizontalAlignment="Left" Height="31" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label5" Content="Total Time:" HorizontalAlignment="Left" Grid.Row="14" VerticalAlignment="Top" Height="31" Width="100"/>
+        <Label x:Name="label6" Content="Average Time:" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="14" VerticalAlignment="Top" Height="31" Width="100"/>
+        <Label x:Name="label7" Content="Min Time:" HorizontalAlignment="Left" Grid.Row="16" VerticalAlignment="Top" Height="30" Width="100"/>
+        <Label x:Name="label8" Content="Max Time:" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="16" VerticalAlignment="Top" Height="30" Width="100"/>
+        <TextBlock x:Name="webTotal" Grid.Column="2" HorizontalAlignment="Left" Height="31" Grid.Row="14" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="webAvg" Grid.Column="6" HorizontalAlignment="Left" Height="31" Grid.Row="14" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="webMin" Grid.Column="2" HorizontalAlignment="Left" Height="31" Grid.Row="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="webMax" Grid.Column="6" HorizontalAlignment="Left" Height="30" Grid.Row="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="1,0,-1,0"/>
+        <GroupBox x:Name="groupBox1" Header="Web Time" HorizontalAlignment="Left" Margin="-10,25,-42,0" Grid.Row="13" VerticalAlignment="Top" Grid.ColumnSpan="7" Height="115" Grid.RowSpan="6" Width="682"/>
+        <GroupBox x:Name="groupBox" Header="Service Time" Margin="-16,22,-36,0" Grid.Row="8" VerticalAlignment="Top" Grid.RowSpan="6" Grid.ColumnSpan="7" Height="115" HorizontalAlignment="Right" Width="682"/>
+        <Label x:Name="label9" Content="Server IP" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="100"/>
+        <Label x:Name="label10" Content="Web(url)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="100" Grid.Column="3" Margin="19,0,0,0" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="ipVal" PreviewTextInput="IpValidationTextBox" Grid.Column="2" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="urlVal"  PreviewTextInput="UrlValidationTextBox" Grid.Column="6" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="1,0,-1,0"/>
+        <TextBlock x:Name="webError" Grid.Column="6" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="93" Margin="209,0,-102,0"/>
+        <TextBlock x:Name="ipError" Grid.Column="4" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="100" Visibility="Hidden"/>
+        <TextBlock x:Name="errorMessage" Grid.Column="5" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="205" Grid.RowSpan="3" Grid.ColumnSpan="2" Grid.Row="2"/>
+        <Button x:Name="startBoth" Content="Both" Grid.Column="6" HorizontalAlignment="Left" Margin="134,0,0,0" Grid.Row="6" VerticalAlignment="Top" Width="65" Height="31" Click="startBoth_Click" />
+        <Label x:Name="label11" Content="Port No" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="100"/>
+        <TextBox x:Name="portNo" PreviewTextInput="NumberValidationTextBox" Grid.Column="2" HorizontalAlignment="Left" Height="30" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label12" Content="Message" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Height="31" Width="100" Grid.ColumnSpan="2" Margin="1,2,0,0"/>
+        <TextBlock x:Name="portError" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="100" Visibility="Hidden"/>
+        <TextBox x:Name="message" Grid.Column="2" HorizontalAlignment="Left" Height="61" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Text="{Binding Message, Mode=TwoWay, ValidatesOnDataErrors=True}"/>
+
+    </Grid>
+</UserControl>

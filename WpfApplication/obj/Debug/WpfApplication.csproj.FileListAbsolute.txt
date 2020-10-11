@@ -1,0 +1,52 @@
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\bin\Debug\WpfApplication.exe
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\bin\Debug\WpfApplication.pdb
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\MainWindow.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\About.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\Appearance.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Home.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\SettingsPage.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\App.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\MainWindow.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\About.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\Appearance.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Home.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\SettingsPage.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\App.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.g.resources
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.exe
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.pdb
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\MessageTimer.baml
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\MessageTimer.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication_Content.g.cs
+C:\Users\IT Deurali\Documents\Visual Studio 2015\Projects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.exe
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.pdb
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\bin\Debug\WpfApplication.exe
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\bin\Debug\WpfApplication.pdb
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\bin\Debug\FirstFloor.ModernUI.dll
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\bin\Debug\FirstFloor.ModernUI.xml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\MainWindow.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\About.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\Appearance.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Home.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\SettingsPage.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\App.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\MainWindow.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\MessageTimer.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\About.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Settings\Appearance.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\Home.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\SettingsPage.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\App.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication_Content.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\Pages\MessageTimer.baml
+G:\VisualStudioProjects\MessageTimeChecker\WpfApplication\obj\Debug\WpfApplication.g.resources
